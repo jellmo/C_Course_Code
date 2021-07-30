@@ -1,4 +1,4 @@
-//Àı3.1 ¼ÆËã²¢Êä³öÒ»¸öÈıÎ»ÕûÊıµÄ¸öÎ»¡¢Ê®Î»ºÍ°ÙÎ»Êı×ÖÖ®ºÍ
+//ä¾‹3.1 è®¡ç®—å¹¶è¾“å‡ºä¸€ä¸ªä¸‰ä½æ•´æ•°çš„ä¸ªä½ã€åä½å’Œç™¾ä½æ•°å­—ä¹‹å’Œ
 
 #include<stdio.h>
 int main(void) {
@@ -6,9 +6,9 @@ int main(void) {
 	int num, bits, tens, hundreds;
 	printf("input a three-digit integer: ");
 	scanf("%d", &num);
-	hundreds = num / 100;	//¼ÆËã°ÙÎ»Êı 
-	tens = num / 10 % 10;   //¼ÆËãÊ®Î»Êı
-	bits = num % 10;		//¼ÆËã¸öÎ»Êı
+	hundreds = num / 100;	//è®¡ç®—ç™¾ä½æ•° 
+	tens = num / 10 % 10;   //è®¡ç®—åä½æ•°
+	bits = num % 10;	//è®¡ç®—ä¸ªä½æ•°
 	printf("hundreds = %d, tens = %d, bits = %d, their sum is %d.\n", hundreds, tens, bits, hundreds+tens+bits);
 	return 0;
 }
