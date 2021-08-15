@@ -22,7 +22,7 @@ typedef struct {
 */
 void Reverse(SqList &L) {
     ElemType temp;  //辅助变量
-    for (ElemType i = 0; i < L.length/2; i++) {
+    for (int i = 0; i < L.length/2; i++) {
         temp=L.data[i];
         L.data[i]=L.data[L.length-1-i];
         L.data[L.length-1-i]=temp;
