@@ -8,6 +8,7 @@ int main(void){
 	printf("请输入您的体重(kg)：");
 	scanf("%lf", &weight);
 	t = weight / (height * height);
+	printf("您的体脂率为：%lf\n", t); 
 	if (t<18 && t>0) {
 		printf("您的体重为低体重\n");
 	} else if (t>=18 && t<25) {
