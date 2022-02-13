@@ -14,7 +14,13 @@ typedef int ElemType;    //ElemType 为可定义的数据类型，此设为int类型
 typedef struct {
 	ElemType data[MaxSize];
 	int length;
-}SqList;			
+}SqList;
+
+//顺序表动态定义
+typedef struct {
+	ElemType *data;			//顺序表的动态定义，data指向数组首地址
+	int length, maxsize;	//顺序表当前表长以及当前最大容量
+}SeList;
 
 /*
 	插入操作，在顺序表的第i个位置插入元素e 
