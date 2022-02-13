@@ -1,0 +1,56 @@
+body {
+    background-image: url("../images/backgroud.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#login-box {
+    width: 30%;
+    height: 300px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 15%;
+    text-align: center;
+    background-color: #00000080;
+    padding: 20px 50px;
+}
+
+#login-box h1 {
+    color: #fff;
+}
+
+#login-box .form {
+    margin-top: 50px;
+}
+
+#login-box .form .item {
+    margin-top: 15px;
+}
+
+#login-box .form .item i {
+    font-size: 18px;
+    color: #fff;
+}
+
+#login-box .form .item input{
+    width: 180px;
+    font-size: 18px;
+    border: 0; /* 去除未选中状态边框 */
+    outline: none; /* 去除选中状态边框 */
+    border-bottom: 2px solid #fff;
+    padding: 5px 10px;
+    background: #ffffff00;
+    color: #fff;
+}
+
+#login-box button {
+    margin-top: 15px;
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-image: linear-gradient(to right, #b92b27 0%, #1565C0 100%);
+    border: 0;
+    border-radius: 15px;
+}
